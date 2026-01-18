@@ -1,0 +1,24 @@
+//SimpleCalculator.java
+// Seralvin Burgos
+// 1/17/2026
+// add, subtract, multiply, divide methods for SimpleCalculatorApplication.java
+
+package edu.fscj.cen3024c.simplecalculator;
+
+public class SimpleCalculator {
+    public static int add(int a, int b) {
+        return a + b;
+    }
+    public static int subtract(int a, int b) {
+        return a - b;
+    }
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
+    public static int divide(int a, int b) {
+        if (b == ) {
+            throw new IllegalArgumentException("Divide by zero is not allowed");
+        }
+        return a / b;
+    }
+}
